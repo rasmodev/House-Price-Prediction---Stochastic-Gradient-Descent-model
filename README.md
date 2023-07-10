@@ -1,5 +1,5 @@
 # House-Price-Prediction---California-Housing-Dataset
-This repository contains a machine learning algorithm that trains a model to predict house prices  based on specified features of the homes, using the California Housing Dataset. The dataset used to train and evaluate a Stochastic Gradient Descent (SGD) model to predict median housing prices. The SGD model is trained using cross-validation and hyperparameter tuning to optimize its performance. The best model is then evaluated on the test set to assess its performance.
+This repository contains a machine learning algorithm that trains a model to predict house prices  based on specified features of the homes, using the California Housing Dataset. The dataset used to train and evaluate a Stochastic Gradient Descent (SGD) model to predict median housing prices. The SGD model is trained using cross-validation and hyperparameter tuning to optimize its performance. The model is compared to the Random Forest Model in this repository (https://github.com/rasmodev/House-Price-Prediction---Stochastic-Gradient-Descent-model). The best model is then evaluated on the test set to assess its performance.
 
 # 1. Data Preparation
 
@@ -32,7 +32,7 @@ The code for tuning the model is in the 3. Model Tuning section of the notebook.
 The code for testing the model is in the 4. Model Testing section of the notebook. The performance of the model is evaluated on the testing set using the root mean squared error (RMSE) metric. The model is also evaluated using cross-validation. Finally, the model is saved to a file using the pickle library.
 
 # Compare Models
-The RMSE and cross-validation scores of the SGD model and Random Forest model are compared in the 5. Compare Models section of the notebook. The SGD model outperforms the Random Forest model in terms of the RMSE and the cross-validation scores.
+The RMSE and cross-validation scores of the SGD model and Random Forest model (https://github.com/rasmodev/House-Price-Prediction---Stochastic-Gradient-Descent-model) are compared in the 5. Compare Models section of the notebook. The SGD model outperforms the Random Forest model in terms of the RMSE and the cross-validation scores.
 
 # Next Steps
 Other regression models that could be tested on the dataset include Decision Tree Regressor, K-Nearest Neighbors Regressor, Artificial Neural Networks (ANN), and Ensemble Methods such as AdaBoost, XGBoost, and LightGBM.
