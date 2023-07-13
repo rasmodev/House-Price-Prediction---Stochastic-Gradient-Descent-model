@@ -1,5 +1,5 @@
 # House-Price-Prediction---California-Housing-Dataset
-This repository contains a machine learning algorithm that trains a model to predict house prices  based on specified features of the homes, using the California Housing Dataset. The dataset used to train and evaluate a Stochastic Gradient Descent (SGD) model to predict median housing prices. The SGD model is trained using cross-validation and hyperparameter tuning to optimize its performance. The model is compared to the Random Forest Model in this repository (https://github.com/rasmodev/House-Price-Prediction---Stochastic-Gradient-Descent-model). The best model is then evaluated on the test set to assess its performance.
+This repository contains a machine learning algorithm that trains a model to predict house prices  based on specified features of the homes, using the California Housing Dataset. The dataset used to train and evaluate a Stochastic Gradient Descent (SGD) model to predict median housing prices. The SGD model is trained using cross-validation and hyperparameter tuning to optimize its performance. The model is compared to the Random Forest Model in this repository (https://github.com/rasmodev/House-Price-Prediction-Random-Forest-Model). The best model is then evaluated on the test set to assess its performance.
 
 # 1. Data Preparation
 
